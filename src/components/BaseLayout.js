@@ -8,28 +8,26 @@ export default class BaseLayout extends Component {
     return (
       <div className='base-layout'>
         <nav className='main-nav'>
-          <div className='nav-links'>
-            <div>
-              <img src='http://orig07.deviantart.net/f9fe/f/2010/045/a/e/apple_logo_fireworks_png_by_jeremebp.png' alt='' />
-            </div>
-            <div>
-              <NavLink exact to='/' activeStyle={{color: 'fff'}}>Home</NavLink>
-            </div>
-            <div>
-              <NavLink to='/iphone' activeClassName='selected'>iPhone</NavLink>
-            </div>
-            <div>
-              <NavLink to='/mac' activeClassName='selected'>Mac</NavLink>
-            </div>
-            <div>
-              <NavLink to='/ipad' activeClassName='selected'>iPad</NavLink>
-            </div>
-            <div>
-              <NavLink to='/watch' activeClassName='selected'>Watch</NavLink>
-            </div>
-            <div>
-              <NavLink to='/tv' activeClassName='selected'>TV</NavLink>
-            </div>
+          <div className='nav-container'>
+            <ul className='nav-ul'>
+              <li className='nav-item'><NavLink exact to='/' activeStyle={{
+                color: '#fff'}}><span className='nav-link-text'><i aria-hidden='true' className='fa fa-apple'></i></span></NavLink></li>
+              <li className='nav-item'><NavLink to='/mac' activeStyle={{
+                color: '#bdc3c7'}}><span className='nav-link-text'>Mac</span></NavLink></li>
+              <li className='nav-item'><NavLink to='/ipad' activeStyle={{
+                color: '#bdc3c7'}}><span className='nav-link-text'>iPad</span></NavLink></li>
+              <li className='nav-item'><NavLink to='/iphone' activeStyle={{
+                color: '#bdc3c7'}}><span className='nav-link-text'>iPhone</span></NavLink></li>
+              <li className='nav-item'><NavLink to='/watch' activeStyle={{
+                color: '#bdc3c7'}}><span className='nav-link-text'>Watch</span></NavLink></li>
+              <li className='nav-item'><NavLink to='/tv' activeStyle={{
+                color: '#bdc3c7'}}><span className='nav-link-text'>TV</span></NavLink></li>
+              <li className='nav-item'><NavLink to='/contact' activeStyle={{
+                color: '#bdc3c7'}}><span className='nav-link-text'>Contact</span></NavLink></li>
+              <li className='nav-item'><NavLink to='/search'><span className='nav-link-text'><i aria-hidden='true' className='fa fa-search'></i></span></NavLink></li>
+              <li className='nav-item'><NavLink to='/cart' activeStyle={{
+                color: '#bdc3c7'}}><span className='nav-link-text'><i aria-hidden='true' className='fa   fa-shopping-bag'></i></span></NavLink></li>
+            </ul>
           </div>
         </nav>
 
@@ -37,7 +35,7 @@ export default class BaseLayout extends Component {
 
         <footer className='footer'>
           <div className='footer-details'>
-            <span></span>
+            <span>Copyright © 2017 by Craig Wendel. All rights reserved.</span>
           </div>
         </footer>
       </div>
