@@ -26,7 +26,7 @@ export default class BaseLayout extends Component {
                 color: '#bdc3c7'}}><span className='nav-link-text'>Contact</span></NavLink></li>
               <li className='nav-item'><NavLink to='/search'><span className='nav-link-text'><i aria-hidden='true' className='fa fa-search'></i></span></NavLink></li>
               <li className='nav-item'><NavLink to='/cart' activeStyle={{
-                color: '#bdc3c7'}}><span className='nav-link-text'><i aria-hidden='true' className='fa   fa-shopping-bag'></i></span></NavLink></li>
+                color: '#bdc3c7'}}><span className='nav-link-text'><i aria-hidden='true' className='fa fa-shopping-bag'></i></span></NavLink></li>
             </ul>
           </div>
         </nav>
@@ -34,6 +34,9 @@ export default class BaseLayout extends Component {
         {this.props.children}
 
         <footer className='footer'>
+          <div className='footer-hero'>
+            <img src='http://zurb.com/blog/system/images/844/original/Apple-Mac.jpg?1367873023' alt='apple footer' />
+          </div>
           <div className='footer-details'>
             <span>Copyright © 2017 by Craig Wendel. All rights reserved.</span>
           </div>

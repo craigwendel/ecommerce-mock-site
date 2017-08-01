@@ -1,29 +1,28 @@
 .hero {
-  background-image: url('http://7c8767f40fd77b0a0655-213ce4ca2fa294c548547246ac17375c.r24.cf1.rackcdn.com/MacBookHeader.jpg');
-  height: 70vh;
-  background-size: contain;
+  background-image: url('https://s.aolcdn.com/hss/storage/midas/db07d6e4ce150c850d38645fee253514/204296855/design_hero_large.jpg');
+  height: 85vh;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  margin-bottom: 0.5%;
 }
 
-.main-image {
+.main-image-text {
   text-align: center;
+  color: #fff;
+  padding-top: 4%;
 }
 
 h2 {
-  font-size: 4em;
+  font-size: 3em;
 }
 
 h4 {
-  font-size: 3em;
+  font-size: 2em;
   text-align: center;
   font-weight: 100;
 }
-.featured-products h4 {
-  font-size: 2.5em;
-  text-align: left;
-  margin-left: 5%;
-}
+
 h5 {
   font-size: 1.25em;
   text-align: center;
@@ -33,9 +32,15 @@ h5 {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  align-content: center;
+  flex-wrap: wrap;
 }
 
  .image-details img {
    width: 25vw;
+   height: 45vh;
+
+ }
+
+ .image-details {
+   flex-basis: 25%;
  }
