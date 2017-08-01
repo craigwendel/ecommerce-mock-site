@@ -4,3 +4,34 @@
   padding: 0;
   box-sizing: border-box;
 }
+.cat-hero {
+  height: 50vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 1%;
+}
+#mac-hero {
+  background-image: url('http://7c8767f40fd77b0a0655-213ce4ca2fa294c548547246ac17375c.r24.cf1.rackcdn.com/MacBookHeader.jpg');
+}
+.hero-text {
+  text-align: center;
+  padding-top: 5%;
+}
+
+.product-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60vh;
+}
+
+.cat-product img {
+  width: 27vw;
+}
+.cat-product a, h4 {
+  font-size: .8em;
+  margin-top: 5%;
+  text-decoration: none;
+  color: #000;
+}

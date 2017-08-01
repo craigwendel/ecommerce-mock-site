@@ -19,6 +19,9 @@
 .fa-apple {
   font-size: 1.25rem;
 }
+.fa-search {
+  font-weight: lighter;
+}
 .nav-ul a:hover {
   color: #bdc3c7;
 }
