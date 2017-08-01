@@ -24,9 +24,13 @@
 }
 .footer-details {
   background-color: #000;
-  height: 3vw;
+  height: 1.5vw;
   color: #fff;
 }
 .footer-hero img {
-  width: 100vw;
+  width: 75vw;
+}
+.footer-hero {
+  text-align: center;
+  background-color: #F2F2F2;
 }

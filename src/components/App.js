@@ -17,10 +17,10 @@ class App extends Component {
             <img src='https://i.ytimg.com/vi/ufBLI6bB9sg/maxresdefault.jpg' alt='the rock and siri'/>
           </div>
           <div className='image-details'>
-            <img src='https://store.storeimages.cdn-apple.com/4974/as-images.apple.com/is/image/AppleInc/aos/published/images/i/ph/iphone/alp/iphone-alp-leather-banner-201706?wid=685&hei=480&fmt=jpeg&qlt=95&op_sharpen=0&resMode=bicub&op_usm=0.5,0.5,0,0&iccEmbed=0&layer=comp&.v=1495224238528' alt='apple watch' />
+            <img src='https://cdn.macrumors.com/article-new/2017/07/apple-back-to-school-banner-2017.jpg' alt='ipad pro' />
           </div>
           <div className='image-details'>
-            <img src='https://cdn.macrumors.com/article-new/2017/07/apple-back-to-school-banner-2017.jpg' alt='ipad pro' />
+            <img src='https://store.storeimages.cdn-apple.com/4974/as-images.apple.com/is/image/AppleInc/aos/published/images/M/Q5/MQ5A2/MQ5A2_FV412?wid=707&hei=647&fmt=png-alpha&qlt=95&.v=1495224834059' alt='apple watch' />
           </div>
           <div className='image-details'>
             <img src='http://images.hellogiggles.com/uploads/2017/06/06080841/iphoneclock.png' alt='apple iphone' />

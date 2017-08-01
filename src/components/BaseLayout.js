@@ -35,7 +35,7 @@ export default class BaseLayout extends Component {
 
         <footer className='footer'>
           <div className='footer-hero'>
-            <img src='http://zurb.com/blog/system/images/844/original/Apple-Mac.jpg?1367873023' alt='apple footer' />
+            <img src='https://www.crazyegg.com/blog/wp-content/uploads/2017/01/apple-footer.png' alt='apple footer' />
           </div>
           <div className='footer-details'>
             <span>Copyright © 2017 by Craig Wendel. All rights reserved.</span>
