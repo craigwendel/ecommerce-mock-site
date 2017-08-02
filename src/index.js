@@ -9,6 +9,8 @@ import Mac from './components/Mac'
 import ProductInfo from './components/ProductInfo'
 import Ipad from './components/Ipad'
 import Iphone from './components/Iphone'
+import Watch from './components/Watch'
+import TV from './components/TV'
 
 ReactDOM.render(
   <BrowserRouter>
@@ -21,6 +23,10 @@ ReactDOM.render(
         <Route path='/ipad' component={Ipad} />
         <Route path='/iphone/:product' component={ProductInfo} />
         <Route path='/iphone' component={Iphone} />
+        <Route path='/watch/:product' component={ProductInfo} />
+        <Route path='/watch' component={Watch} />
+        <Route path='/tv/:product' component={ProductInfo} />
+        <Route path='/tv' component={TV} />
       </Switch>
     </BaseLayout>
   </BrowserRouter>

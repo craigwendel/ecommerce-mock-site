@@ -18,13 +18,40 @@
 }
 
 #ipad-hero {
-  background-image: url('https://9to5mac.files.wordpress.com/2016/08/ipad-air-2-all-colors.jpg?quality=82&strip=all ');
+  background-image: url('https://9to5toys.files.wordpress.com/2017/06/apple-9-inch-ipad-pro-all-colors.jpg?quality=82&strip=all&w=1000&strip=all');
 }
 
 #iphone-hero {
   background-image: url('https://cdn.macrumors.com/article-new/2015/09/iPhone-6s-main-800x337.jpg?retina');
 }
+#watch-hero {
+  background-image: url('https://9to5mac.files.wordpress.com/2017/05/apple-watch-series-2-1.jpg?quality=82&strip=all&w=1600&h=800');
+}
 
+#tv-hero {
+  background-image: url('https://9to5toys.files.wordpress.com/2015/10/apple-tv-4th-generation-copy.jpg?w=1600&h=1000');
+}
+
+#watch-apple-icon {
+  font-size: 1.25em;
+}
+
+.tv-hero-text {
+  color: #fff;
+  text-align: center;
+  padding-top: 18%;
+  text-shadow: 2px 2px #000000;
+}
+.watch-hero-text h6 {
+  font-weight: 400;
+  font-size: 2.25em;
+  color: #000;
+  text-align: right;
+}
+
+.watch-hero-text {
+  padding: 3% 5% 0% 0%;
+}
 .hero-text {
   text-align: center;
   padding-top: 5%;

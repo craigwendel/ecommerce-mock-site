@@ -4,7 +4,7 @@ const allProducts = [
     name: 'MacBook',
     img: 'https://pisces.bbystatic.com/image2/BestBuy_US/images/products/4598/4598800_sd.jpg;maxHeight=1000;maxWidth=1000',
     color: 'Space Gray',
-    hardDrive: '256 GB',
+    storage: '256 GB',
     price: '$1299',
     description: 'MacBook delivers more performance in the lightest and thinnest Mac notebook ever. With new seventh-generation Intel Core processors, 12-inch Retina display,¹ a full-size keyboard, force-sensing trackpad, versatile USB-C port, and all-day battery life,º MacBook features big thinking in an impossibly compact form.'
   },
@@ -13,7 +13,7 @@ const allProducts = [
     name: 'MacBook Pro',
     img: 'https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6936/6936477_sd.jpg;maxHeight=1000;maxWidth=1000',
     color: 'Silver',
-    hardDrive: '256 GB',
+    storage: '256 GB',
     price: '$1499',
     description: 'The new MacBook Pro is razor-thin, featherlight, and now even faster and more powerful than before. It has the brightest, most colorful Mac notebook display. And it features up to 10 hours of battery life. It’s a notebook built for the work you do every day. Ready to go anywhere a great idea takes you.'
   },
@@ -22,7 +22,7 @@ const allProducts = [
     name: 'iMac',
     img: 'https://pisces.bbystatic.com/image2/BestBuy_US/images/products/4881/4881400_sd.jpg;maxHeight=1000;maxWidth=1000',
     color: 'Silver',
-    hardDrive: '1 TB',
+    storage: '1 TB',
     price: '$1799',
     description: 'iMac performance is at an alltime high with faster Intel Core processors, powerful Radeon Pro 500-series graphics, Thunderbolt 3 (USB-C) connectivity, and stunning Retina 5K displays that shine 43 percent brighter and support one billion colors.'
   },
@@ -79,6 +79,51 @@ const allProducts = [
     storage: '64 GB',
     price: '$18.70 /mo.',
     description: 'A 4.7-inch Retina HD display with 3D Touch. 7000 series aluminum and stronger cover glass. An A9 chip with 64-bit desktop-class architecture. All new 12MP iSight camera with Live Photos. Touch ID. Faster LTE and Wi-Fi. Long battery life and iOS 10 and iCloud. All in a smooth, continuous unibody design.'
+  },
+  {
+    id: 10,
+    name: 'Watch Series 2',
+    img: 'https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQNtfjo7w2bMdDJEmf6-spjECWiOFNBbMdOWzQR6qBYp4Mwq7Y6OUhoBeaI8jB-fT77v_TTZ0x6&usqp=CAE',
+    color: 'Space Gray',
+    storage: '32 GB',
+    price: '$399',
+    description: 'Built-in GPS. Water resistance to 50 meters.¹ A new lightning-fast dual-core processor. And a 2x brighter display for increased visibility in direct sunlight.² Full of features that help you stay active, motivated, and connected, Apple Watch Series 2 is designed for all the ways you move.'
+  },
+  {
+    id: 11,
+    name: 'Watch Nike+ Series 2',
+    img: 'https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSqWrEn5dmFQvZMbcnXGogQTzv2MT0SX7j8SOZka-_hOALE0yY5nuk9cfglBHX5KzqmipM95Wjf&usqp=CAY',
+    color: 'Silver',
+    storage: '32 GB',
+    price: '$399',
+    description: 'Durable, lightweight aluminum cases. New Nike Sport Band. Exclusive Nike watch faces. All the features of Apple Watch Series 2, including built-in GPS, water resistance to 50 meters ¹, a new lightning-fast 2-core processor, 2x brighter display for increased visibility in direct sunlight ², watchOS 3.'
+  },
+  {
+    id: 12,
+    name: 'Watch Series 1',
+    img: 'https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRXZSFmlirZY3G3Ib5kOfMUj2RQ_K2rNAoEZ26qQiLDFcmLTHW31Cgoc7jzRrCYyc9CSKzbgAxm&usqp=CAE',
+    color: 'Rose Gold',
+    storage: '32 GB',
+    price: '$269',
+    description: 'Track and share your daily physical activity. Measure your workouts. Monitor your health. Stay connected to the people and information you care about most. Now you can do it all even faster than before, thanks to a new dual-core processor.'
+  },
+  {
+    id: 13,
+    name: 'TV (4th Generation',
+    img:'https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRcL4qVlope-XfgxzraAibBGfeIgsQPljJHsmg_U9o02wvcpQ7iIJpdtMh9Wqe2UWaIBVxEfnA&usqp=CAE',
+    color: 'Black',
+    storage: '32 GB',
+    price: '$149',
+    description: "The new Apple TV delivers an all-new experience with Touch and Siri, powerful new hardware, and great content, games, and more on the App Store. The Touch surface on the new Siri Remote offers innovative ways to interact with your TV, creating a connected experience with a screen that's across the room. With Siri, finding something to watch is as easy as just asking. And with apps, Apple TV allows you to customize your TV for personal and shared experiences in the living room."
+  },
+  {
+    id: 14,
+    name: 'TV (3rd Generation)',
+    img: 'https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRQ_53KDzt65EOfA5BI2b1uCiLcmD_5Xy3DHky3ebQvA4LV1iZPgcZrCP5O490&usqp=CAE',
+    color: 'Black',
+    storage: '16 GB',
+    price: '$89',
+    description: 'The Apple TV in Black (MD199LL/A) instantly transforms your home television into a hub for all of the best HD content available. Watch blockbuster movies, hit TV shows, live sports, news, your family photos or listen to music. Using this streamer you can play content from your iOS devices or your MAC right on your own television with AirPlay. All of the content that you really want to watch is now yours in stunning 1080p HD any time you want.'
   }
 ]
 
