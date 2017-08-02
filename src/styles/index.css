@@ -4,6 +4,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 .cat-hero {
   height: 50vh;
   background-size: cover;
@@ -11,9 +12,19 @@
   background-position: center;
   margin-bottom: 1%;
 }
+
 #mac-hero {
   background-image: url('http://7c8767f40fd77b0a0655-213ce4ca2fa294c548547246ac17375c.r24.cf1.rackcdn.com/MacBookHeader.jpg');
 }
+
+#ipad-hero {
+  background-image: url('https://9to5mac.files.wordpress.com/2016/08/ipad-air-2-all-colors.jpg?quality=82&strip=all ');
+}
+
+#iphone-hero {
+  background-image: url('https://cdn.macrumors.com/article-new/2015/09/iPhone-6s-main-800x337.jpg?retina');
+}
+
 .hero-text {
   text-align: center;
   padding-top: 5%;
@@ -29,9 +40,14 @@
 .cat-product img {
   width: 27vw;
 }
+.cat-product-target img {
+  width: 22vw;
+}
+
 .cat-product a, h4 {
-  font-size: .8em;
+  font-size: 1.1em;
   margin-top: 5%;
   text-decoration: none;
+  text-align: center;
   color: #000;
 }

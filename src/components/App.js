@@ -7,7 +7,7 @@ class App extends Component {
       <div className='App'>
         <header className='hero'>
           <div className='main-image-text'>
-            <h4>iPhone</h4>
+            <h6>iPhone</h6>
             <span><h2>This is 7.</h2></span>
           </div>
         </header>

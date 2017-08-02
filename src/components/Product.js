@@ -12,7 +12,7 @@ const Product = (props) => {
         <h2>{product.name}</h2>
         <h3>Price: {product.price}</h3>
         <p><strong>Color:</strong> {product.color}</p>
-        <p><strong>Hard Drive:</strong> {product.hardDrive}</p>
+        <p><strong>Storage:</strong> {product.storage}</p>
         <p><strong>Description:</strong> {product.description}</p>
         <button>Add to Cart</button>
       </div>
