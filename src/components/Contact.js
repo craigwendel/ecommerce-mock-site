@@ -48,42 +48,49 @@ export default class Contact extends Component {
             <h2>Contact</h2>
           </div>
         </div>
-        <div className='form-headline'>
-          <h4>Fill out the form below with your inquiry.</h4>
-        </div>
-        <div className='success-message'>
-          <h4>{this.state.successMessage}</h4>
-        </div>
-        <div className='contact-form'>
-          <form onSubmit={this.handleSubmit} >
-            <div>
-              <label>Name:</label>
-            </div>
-            <div>
-              <input type='text' onChange={this.handleNameChange} value={this.state.name} placeholder='Your Name' />
-            </div>
-            <div>
-              <label>Email:</label>
-            </div>
-            <div>
-              <input type='text' onChange={this.handleEmailChange} value={this.state.email} placeholder='Your Email' />
-            </div>
-            <div>
-              <label>Phone:</label>
-            </div>
-            <div>
-              <input type='phone' onChange={this.handlePhoneChange} value={this.state.phone} placeholder='Your Phone Number' />
-            </div>
-            <div>
-              <label>Message:</label>
-            </div>
-            <div>
-              <textarea rows='5' onChange={this.handleMessageChange} value={this.state.message} placeholder="What's on your mind?" />
-            </div>
-            <div>
-              <input type='submit' value='Submit' id='submit' />
-            </div>
-          </form>
+        <div className='contact-form-flex'>
+          <div className='form-headline success-message contact-form'>
+            <h4>Fill out the form below with your inquiry.</h4>
+            <h4>{this.state.successMessage}</h4>
+            <form onSubmit={this.handleSubmit} >
+              <div>
+                <label>Name:</label>
+              </div>
+              <div>
+                <input type='text' onChange={this.handleNameChange} value={this.state.name} placeholder='Your Name' />
+              </div>
+              <div>
+                <label>Email:</label>
+              </div>
+              <div>
+                <input type='text' onChange={this.handleEmailChange} value={this.state.email} placeholder='Your Email' />
+              </div>
+              <div>
+                <label>Phone:</label>
+              </div>
+              <div>
+                <input type='phone' onChange={this.handlePhoneChange} value={this.state.phone} placeholder='Your Phone Number' />
+              </div>
+              <div>
+                <label>Message:</label>
+              </div>
+              <div>
+                <textarea rows='5' onChange={this.handleMessageChange} value={this.state.message} placeholder="What's on your mind?" />
+              </div>
+              <div>
+                <input type='submit' value='Submit' id='submit' />
+              </div>
+            </form>
+          </div>
+          <div className='contact-information'>
+            <h4>Corporate Address</h4>
+            <ul>
+              <li>Apple</li>
+              <li>1 Infinite Loop</li>
+              <li>Cupertino, CA 95014</li>
+              <li>(408) 996–1010</li>
+            </ul>
+          </div>
         </div>
       </div>
     )

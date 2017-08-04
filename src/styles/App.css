@@ -12,6 +12,7 @@
   color: #fff;
   padding-top: 4%;
 }
+
 h2 {
   font-size: 3em;
 }
@@ -36,7 +37,6 @@ h5 {
  .image-details img {
    width: 25vw;
    height: 45vh;
-
  }
 
  .image-details {

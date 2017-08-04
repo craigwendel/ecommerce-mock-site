@@ -96,7 +96,21 @@ textarea {
   border-radius: 10px;
   margin-bottom: 5%;
 }
-
+.contact-form-flex {
+  display: flex;
+}
+.contact-information h4 {
+  font-size: 2.5em;
+  text-align: center;
+}
+.contact-information li {
+  font-size: 1.5em;
+  list-style: none;
+  text-align: center;
+}
+.contact-information {
+  padding: 3% 5% 0% 0%;
+}
 .tv-hero-text {
   color: #fff;
   text-align: center;
