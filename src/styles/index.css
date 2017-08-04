@@ -35,6 +35,67 @@
 #watch-apple-icon {
   font-size: 1.25em;
 }
+#contact-hero {
+  background-image: url('http://www.industrytap.com/wp-content/uploads/2013/05/Apple-Campus.jpg');
+}
+#about-hero {
+  background-image: url('https://i-cdn.phonearena.com/images/articles/279848-thumb/apple-india-header.jpg');
+}
+.about-hero-text h2 {
+  font-weight: 400;
+  font-size: 3.25em;
+  color: #fff;
+  text-align: right
+}
+.about-hero-text {
+  padding: 5% 8% 0% 0%;
+}
+.about-page-text {
+  width: 70%;
+}
+.about-page-text div {
+  padding: 3% 0% 5% 0%;
+}
+.about-page-text h4 {
+  font-size: 2.5em;
+}
+.about-page-text p {
+  font-size: 1.5em;
+}
+.form-headline h4 {
+  text-align: center;
+  font-size: 2em;
+}
+.contact-form {
+  width: 50%;
+  margin-top: 2%;
+}
+.contact-form div {
+  margin-top: 1%;
+}
+.contact-form label {
+  font-size: 1.5em;
+  padding-top: 2%;
+}
+.contact-form input {
+  padding: 1%;
+  width: 40%;
+  font-size: 1.25em;
+}
+textarea {
+  width: 60%;
+  font-size: 1.25em;
+}
+
+#submit {
+  padding: 3%;
+  width: 20%;
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  border-radius: 10px;
+  margin-bottom: 5%;
+}
 
 .tv-hero-text {
   color: #fff;

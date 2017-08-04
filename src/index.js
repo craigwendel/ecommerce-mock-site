@@ -11,6 +11,8 @@ import Ipad from './components/Ipad'
 import Iphone from './components/Iphone'
 import Watch from './components/Watch'
 import TV from './components/TV'
+import Contact from './components/Contact'
+import About from './components/About'
 
 ReactDOM.render(
   <BrowserRouter>
@@ -27,6 +29,8 @@ ReactDOM.render(
         <Route path='/watch' component={Watch} />
         <Route path='/tv/:product' component={ProductInfo} />
         <Route path='/tv' component={TV} />
+        <Route path='/contact' component={Contact} />
+        <Route path='/about' component={About} />
       </Switch>
     </BaseLayout>
   </BrowserRouter>

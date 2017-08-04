@@ -24,6 +24,8 @@ export default class BaseLayout extends Component {
                 color: '#bdc3c7'}}><span className='nav-link-text'>TV</span></NavLink></li>
               <li className='nav-item'><NavLink to='/contact' activeStyle={{
                 color: '#bdc3c7'}}><span className='nav-link-text'>Contact</span></NavLink></li>
+              <li className='nav-item'><NavLink to='/about' activeStyle={{
+                color: '#bdc3c7'}}><span className='nav-link-text'>About</span></NavLink></li>
               <li className='nav-item'><NavLink to='/search'><span className='nav-link-text'><i aria-hidden='true' className='fa fa-search'></i></span></NavLink></li>
               <li className='nav-item'><NavLink to='/cart' activeStyle={{
                 color: '#bdc3c7'}}><span className='nav-link-text'><i aria-hidden='true' className='fa fa-shopping-bag'></i></span></NavLink></li>
