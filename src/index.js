@@ -18,19 +18,19 @@ ReactDOM.render(
   <BrowserRouter>
     <BaseLayout>
       <Switch>
-        <Route exact path='/' component={App} />
-        <Route path='/mac/:product' component={ProductInfo} />
-        <Route path='/mac' component={Mac} />
-        <Route path='/ipad/:product' component={ProductInfo} />
-        <Route path='/ipad' component={Ipad} />
-        <Route path='/iphone/:product' component={ProductInfo} />
-        <Route path='/iphone' component={Iphone} />
-        <Route path='/watch/:product' component={ProductInfo} />
-        <Route path='/watch' component={Watch} />
-        <Route path='/tv/:product' component={ProductInfo} />
-        <Route path='/tv' component={TV} />
-        <Route path='/contact' component={Contact} />
-        <Route path='/about' component={About} />
+        <Route exact path='/ecommerce-mock-site' component={App} />
+        <Route path='/ecommerce-mock-site/mac/:product' component={ProductInfo} />
+        <Route path='//mac' component={Mac} />
+        <Route path='/ecommerce-mock-site/ipad/:product' component={ProductInfo} />
+        <Route path='/ecommerce-mock-site/ipad' component={Ipad} />
+        <Route path='/ecommerce-mock-site/iphone/:product' component={ProductInfo} />
+        <Route path='/ecommerce-mock-site/iphone' component={Iphone} />
+        <Route path='/ecommerce-mock-site/watch/:product' component={ProductInfo} />
+        <Route path='/ecommerce-mock-site/watch' component={Watch} />
+        <Route path='/ecommerce-mock-site/tv/:product' component={ProductInfo} />
+        <Route path='/ecommerce-mock-site/tv' component={TV} />
+        <Route path='/ecommerce-mock-site/contact' component={Contact} />
+        <Route path='/ecommerce-mock-site/about' component={About} />
       </Switch>
     </BaseLayout>
   </BrowserRouter>
