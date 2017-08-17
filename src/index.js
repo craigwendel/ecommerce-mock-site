@@ -20,7 +20,7 @@ ReactDOM.render(
       <Switch>
         <Route exact path='/ecommerce-mock-site' component={App} />
         <Route path='/ecommerce-mock-site/mac/:product' component={ProductInfo} />
-        <Route path='//mac' component={Mac} />
+        <Route path='/ecommerce-mock-site/mac' component={Mac} />
         <Route path='/ecommerce-mock-site/ipad/:product' component={ProductInfo} />
         <Route path='/ecommerce-mock-site/ipad' component={Ipad} />
         <Route path='/ecommerce-mock-site/iphone/:product' component={ProductInfo} />
