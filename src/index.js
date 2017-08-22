@@ -3,35 +3,33 @@ import ReactDOM from 'react-dom'
 import './styles/index.css'
 import App from './components/App'
 import registerServiceWorker from './registerServiceWorker'
-import { BrowserRouter, Route, Switch } from 'react-router-dom'
+import { BrowserRouter, Route } from 'react-router-dom'
 import BaseLayout from './components/BaseLayout'
 import Mac from './components/Mac'
 import ProductInfo from './components/ProductInfo'
 import Ipad from './components/Ipad'
 import Iphone from './components/Iphone'
 import Watch from './components/Watch'
-import TV from './components/TV'
+import Tv from './components/Tv'
 import Contact from './components/Contact'
 import About from './components/About'
 
 ReactDOM.render(
   <BrowserRouter>
     <BaseLayout>
-      <Switch>
-        <Route exact path='/ecommerce-mock-site' component={App} />
-        <Route path='/ecommerce-mock-site/mac/:product' component={ProductInfo} />
-        <Route path='/ecommerce-mock-site/mac' component={Mac} />
-        <Route path='/ecommerce-mock-site/ipad/:product' component={ProductInfo} />
-        <Route path='/ecommerce-mock-site/ipad' component={Ipad} />
-        <Route path='/ecommerce-mock-site/iphone/:product' component={ProductInfo} />
-        <Route path='/ecommerce-mock-site/iphone' component={Iphone} />
-        <Route path='/ecommerce-mock-site/watch/:product' component={ProductInfo} />
-        <Route path='/ecommerce-mock-site/watch' component={Watch} />
-        <Route path='/ecommerce-mock-site/tv/:product' component={ProductInfo} />
-        <Route path='/ecommerce-mock-site/tv' component={TV} />
-        <Route path='/ecommerce-mock-site/contact' component={Contact} />
-        <Route path='/ecommerce-mock-site/about' component={About} />
-      </Switch>
+      <Route exact path='/' component={App} />
+      <Route path='/mac/:product' component={ProductInfo} />
+      <Route path='/mac' component={Mac} />
+      <Route path='/ipad/:product' component={ProductInfo} />
+      <Route path='/ipad' component={Ipad} />
+      <Route path='/iphone/:product' component={ProductInfo} />
+      <Route path='/iphone' component={Iphone} />
+      <Route path='/watch/:product' component={ProductInfo} />
+      <Route path='/watch' component={Watch} />
+      <Route path='/tv/:product' component={ProductInfo} />
+      <Route path='/tv' component={Tv} />
+      <Route path='/contact' component={Contact} />
+      <Route path='/about' component={About} />
     </BaseLayout>
   </BrowserRouter>
 
