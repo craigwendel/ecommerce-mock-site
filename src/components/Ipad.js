@@ -17,7 +17,7 @@ export default class Ipad extends Component {
         </div>
         <div className='product-flex' >
           {ipad.map((product) =>
-            <Link to={`${match.url}/${product.name}`}>
+            <Link to={`${match.url}/${product.name}`} className='product-div'>
               <div className='cat-product-target' key={product.id}>
                 <img src={product.img} alt={product.name} />
                 <h4>{product.name}</h4>
