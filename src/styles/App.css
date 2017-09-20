@@ -42,3 +42,15 @@ h5 {
  .image-details {
    flex-basis: 25%;
  }
+
+ /*---------- Mobile Media Query ---------------*/
+
+ @media (min-width: 300px) and (max-width: 600px) {
+   .featured-flex {
+     flex-direction: column;
+   }
+   .image-details img {
+     width: 100vw;
+     height: 55vh;
+   }
+ }
