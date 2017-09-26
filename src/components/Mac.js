@@ -17,7 +17,7 @@ export default class Mac extends Component {
         <div className='product-flex' >
           {mac.map((product) =>
             <Link to={`${match.url}/${product.name}`}>
-              <div className='cat-product-target' key={product.id}>
+              <div className='cat-product' key={product.id}>
               <img src={product.img} alt={product.name} />
               <h4>{product.name}</h4>
             </div>

@@ -145,11 +145,47 @@ textarea {
 .cat-product-target img {
   width: 22vw;
 }
-
+.cat-product h4 {
+  font-size: 1.1em;
+  margin-top: 5%;
+  text-decoration: none;
+  text-align: center;
+  color: #000;
+}
 .cat-product-target h4 {
   font-size: 1.1em;
   margin-top: 5%;
   text-decoration: none;
   text-align: center;
   color: #000;
+}
+
+@media (min-width: 300px) and (max-width: 600px) {
+  .contact-form-flex {
+    flex-direction: column;
+  }
+  .contact-form input {
+    width: 90%;
+  }
+  textarea {
+    width: 95%;
+  }
+  #submit {
+    width: 45%;
+  }
+  .contact-information {
+    margin: 5% 0% 10% 0%;
+  }
+  .product-flex {
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 10% 0%;
+    height: 100vh;
+  }
+  .cat-product img {
+    width: 55vw;
+  }
+  .cat-product-target img {
+    width: 38vw;
+  }
 }

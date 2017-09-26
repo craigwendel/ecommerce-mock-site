@@ -3,65 +3,59 @@ import {NavLink} from 'react-router-dom'
 import '../styles/NavBar.css'
 
 export default class NavBar extends Component {
+
   navToggle () {
-    let links = document.querySelector('.narrow-links')
-    if (links.style.display === 'block') {
-      links.style.display = 'none'
+    let linksEl = document.querySelector('.narrowLinks')
+    if (linksEl.style.display === 'block') {
+      linksEl.style.display = 'none'
     } else {
-      links.style.display = 'block'
+      linksEl.style.display = 'block'
     }
   }
 
   render () {
     return (
-      <nav className='main-nav'>
-        <div className='nav-container'>
-          <div className='nav-wide'>
-            <ul className='nav-ul'>
-              <li className='nav-item'><NavLink exact to='/' activeStyle={{
-                color: '#fff'}}><span className='nav-link-text'><i aria-hidden='true' className='fa fa-apple'></i></span></NavLink></li>
-              <li className='nav-item'><NavLink to='/mac' activeStyle={{
-                color: '#bdc3c7'}}><span className='nav-link-text'>Mac</span></NavLink></li>
-              <li className='nav-item'><NavLink to='/ipad' activeStyle={{
-                color: '#bdc3c7'}}><span className='nav-link-text'>iPad</span></NavLink></li>
-              <li className='nav-item'><NavLink to='/iphone' activeStyle={{
-                color: '#bdc3c7'}}><span className='nav-link-text'>iPhone</span></NavLink></li>
-              <li className='nav-item'><NavLink to='/watch' activeStyle={{
-                color: '#bdc3c7'}}><span className='nav-link-text'>Watch</span></NavLink></li>
-              <li className='nav-item'><NavLink to='/tv' activeStyle={{
-                color: '#bdc3c7'}}><span className='nav-link-text'>TV</span></NavLink></li>
-              <li className='nav-item'><NavLink to='/contact' activeStyle={{
-                color: '#bdc3c7'}}><span className='nav-link-text'>Contact</span></NavLink></li>
-              <li className='nav-item'><NavLink to='/about' activeStyle={{
-                color: '#bdc3c7'}}><span className='nav-link-text'>About</span></NavLink></li>
-              <li className='nav-item'><NavLink to='/search'><span className='nav-link-text'><i aria-hidden='true' className='fa fa-search'></i></span></NavLink></li>
-              <li className='nav-item'><NavLink to='/cart' activeStyle={{
-                color: '#bdc3c7'}}><span className='nav-link-text'><i aria-hidden='true' className='fa fa-shopping-bag'></i></span></NavLink></li>
-            </ul>
+      <nav>
+        <div className='navWide'>
+          <div className='wideDiv'>
+            <NavLink exact to='/' activeStyle={{color: '#fff'}}><i aria-hidden='true' className='fa fa-apple'></i></NavLink>
+            <NavLink to='/mac' activeStyle={{color: '#bdc3c7'}}>Mac</NavLink>
+            <NavLink to='/ipad' activeStyle={{
+              color: '#bdc3c7'}}>iPad</NavLink>
+            <NavLink to='/iphone' activeStyle={{
+              color: '#bdc3c7'}}>iPhone</NavLink>
+            <NavLink to='/watch' activeStyle={{
+              color: '#bdc3c7'}}>Watch</NavLink>
+            <NavLink to='/tv' activeStyle={{
+              color: '#bdc3c7'}}>TV</NavLink>
+            <NavLink to='/contact' activeStyle={{
+              color: '#bdc3c7'}}>Contact</NavLink>
+            <NavLink to='/about' activeStyle={{
+              color: '#bdc3c7'}}>About</NavLink>
+            <NavLink to='/search'><i aria-hidden='true' className='fa fa-search'></i></NavLink>
+            <NavLink to='/cart' activeStyle={{
+              color: '#bdc3c7'}}><i aria-hidden='true' className='fa fa-shopping-bag'></i></NavLink>
           </div>
-          <div className='nav-narrow'>
-            <i className='fa fa-bars fa-2x' onClick={this.navToggle} />
-            <ul className='nav-ul'>
-              <li className='nav-item'><NavLink exact to='/' activeStyle={{
-                color: '#fff'}}><i aria-hidden='true' className='fa fa-apple'></i></NavLink></li>
-              <li className='nav-item'><NavLink to='/mac' activeStyle={{
-                color: '#bdc3c7'}} onClick={this.navToggle} className='nav-link-text narrow-links'>Mac</NavLink></li>
-              <li className='nav-item'><NavLink to='/ipad' activeStyle={{
-                color: '#bdc3c7'}} onClick={this.navToggle} className='nav-link-text narrow-links'>iPad</NavLink></li>
-              <li className='nav-item'><NavLink to='/iphone' activeStyle={{
-                color: '#bdc3c7'}} onClick={this.navToggle} className='nav-link-text narrow-links'>iPhone</NavLink></li>
-              <li className='nav-item narrow-links'><NavLink to='/watch' activeStyle={{
-                color: '#bdc3c7'}} onClick={this.navToggle} className='nav-link-text narrow-links'> >Watch</NavLink></li>
-              <li className='nav-item'><NavLink to='/tv' activeStyle={{
-                color: '#bdc3c7'}} onClick={this.navToggle} className='nav-link-text narrow-links'>TV</NavLink></li>
-              <li className='nav-item'><NavLink to='/contact' activeStyle={{
-                color: '#bdc3c7'}} onClick={this.navToggle} className='nav-link-text narrow-links'> Contact</NavLink></li>
-              <li className='nav-item'><NavLink to='/about' activeStyle={{
-                color: '#bdc3c7'}} onClick={this.navToggle} className='nav-link-text narrow-links'>About</NavLink></li>
-              <li className='nav-item'><NavLink to='/search' onClick={this.navToggle} className='nav-link-text narrow-links'><i aria-hidden='true' className='fa fa-search'></i></NavLink></li>
-              <li className='nav-item narrow-links'><NavLink to='/cart' activeStyle={{
-                color: '#bdc3c7'}} onClick={this.navToggle} className='nav-link-text narrow-links'><i aria-hidden='true' className='fa fa-shopping-bag'></i></NavLink></li>
-            </ul>
+        </div>
+        <div className='navNarrow'>
+          <i className='fa fa-bars fa-2x' onClick={this.navToggle}></i>
+          <NavLink exact to='/' activeStyle={{color: '#fff'}}><i aria-hidden='true' className='fa fa-apple' id='narrow-logo'></i></NavLink>
+          <NavLink to='/cart' activeStyle={{
+            color: '#bdc3c7'}}><i aria-hidden='true' className='fa fa-shopping-bag'></i></NavLink>
+          <div className='narrowLinks'>
+            <NavLink to='/mac' activeStyle={{color: '#bdc3c7'}} onClick={this.navToggle}>Mac</NavLink>
+            <NavLink to='/ipad' activeStyle={{
+              color: '#bdc3c7'}} onClick={this.navToggle}>iPad</NavLink>
+            <NavLink to='/iphone' activeStyle={{
+              color: '#bdc3c7'}} onClick={this.navToggle}>iPhone</NavLink>
+            <NavLink to='/watch' activeStyle={{
+              color: '#bdc3c7'}} onClick={this.navToggle}>Watch</NavLink>
+            <NavLink to='/tv' activeStyle={{
+              color: '#bdc3c7'}} onClick={this.navToggle}>TV</NavLink>
+            <NavLink to='/contact' activeStyle={{
+              color: '#bdc3c7'}} onClick={this.navToggle}>Contact</NavLink>
+            <NavLink to='/about' activeStyle={{
+              color: '#bdc3c7'}} onClick={this.navToggle}>About</NavLink>
           </div>
         </div>
       </nav>
